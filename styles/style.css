@@ -1,0 +1,25 @@
+/* google font "work sans" import link  */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* reset default style form all elements */
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* common or shared styles  */
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* header section styles  */
