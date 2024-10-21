@@ -22,6 +22,11 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+main > section,
+footer {
+  margin-top: 108px;
+}
+
 .container {
   width: 1195px;
   margin: 0 auto;
@@ -46,6 +51,12 @@ body {
   color: rgba(114, 114, 114, 1);
 }
 
+.title {
+  font-size: 2.35rem;
+  font-weight: 700;
+  line-height: 2.75rem;
+}
+
 .description {
   font-size: 1rem;
   line-height: 1.34rem;
@@ -63,6 +74,10 @@ body {
   border-radius: 8px;
   background: rgb(255, 144, 14);
   margin-top: 26.6px;
+}
+
+.text-highlight {
+  color: rgba(255, 144, 14, 1);
 }
 
 /* header section styles  */
@@ -110,6 +125,29 @@ nav .navbar .nav-link {
 #banner .banner-image {
   width: 100%;
   border-radius: 8px;
+}
+
+/* team section styles  */
+#team {
+  align-items: center;
+  gap: 60.6px;
+}
+
+#team .team-group-image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+#team .team-group-image img {
+  width: 100%;
+}
+
+#team .feature-lookup {
+  max-width: 446px;
+}
+#team .feature-lookup #text-quick {
+  font-weight: 500;
 }
 
 /* responsive styles  */
