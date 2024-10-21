@@ -60,11 +60,66 @@ nav .brand-name {
 
 nav .navbar {
   gap: 50px;
-  align-items: center;
 }
 
 nav .navbar .nav-link {
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.34rem;
+}
+
+/* responsive styles  */
+/* xs devices  */
+@media screen and (max-width: 575.98px) {
+  .container {
+    width: calc(100% - 40px);
+    padding: 0 20px;
+  }
+
+  /* nav section styles  */
+  nav {
+    text-align: center;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+  }
+
+  nav .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+  nav .navbar .nav-item {
+    padding: 6px;
+    border: 0.5px solid #131313;
+    border-radius: 5px;
+    background-color: rgba(255, 228, 196, 0.589);
+    transition: all 0.3s;
+  }
+
+  nav .navbar .nav-item:hover {
+    background-color: beige;
+  }
+  nav .navbar .nav-link {
+    color: #131313;
+  }
+}
+
+/* sm devices  */
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* md devices  */
+@media screen and (min-width: 768px) and(max-width: 991.98px) {
+}
+
+/* lg devices  */
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* xl devices  */
+@media screen and (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+/* xxl devices  */
+@media screen and (min-width: 1400px) {
 }
