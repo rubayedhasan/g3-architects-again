@@ -41,9 +41,33 @@ body {
   color: rgba(114, 114, 114, 1);
 }
 
+/* dark-3 */
+.text-gray {
+  color: rgba(114, 114, 114, 1);
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.34rem;
+  margin-top: 20px;
+}
+
+.btn-primary {
+  color: rgb(255, 255, 255);
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.2rem;
+  padding: 17.5px 20.8px;
+  border: 1px solid rgb(255, 144, 14);
+  border-radius: 8px;
+  background: rgb(255, 144, 14);
+  margin-top: 26.6px;
+}
+
 /* header section styles  */
 header {
   padding: 41.5px 0 37.5px;
+  background-color: rgba(255, 144, 14, 0.1);
 }
 
 /* nav section styles  */
@@ -66,6 +90,24 @@ nav .navbar .nav-link {
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.34rem;
+}
+
+/* banner section styles  */
+#banner {
+  margin-top: 85px;
+}
+
+#banner .banner-content {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#banner .banner-image-container {
+  margin-top: 41.5px;
+}
+#banner .banner-image {
+  width: 100%;
 }
 
 /* responsive styles  */
