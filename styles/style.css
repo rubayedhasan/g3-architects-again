@@ -213,6 +213,7 @@ nav .navbar .nav-link {
   /* team section styles  */
   #team {
     flex-direction: column-reverse;
+    gap: 35px;
   }
 
   #team .team-group-image {
@@ -255,6 +256,7 @@ nav .navbar .nav-link {
   /* team section styles  */
   #team {
     flex-direction: column-reverse;
+    gap: 40px;
   }
 
   #team .feature-lookup {
@@ -287,6 +289,7 @@ nav .navbar .nav-link {
   /* team section styles  */
   #team {
     flex-direction: column-reverse;
+    gap: 45px;
   }
 
   #team .feature-lookup {
@@ -299,12 +302,22 @@ nav .navbar .nav-link {
   .container {
     width: 960px;
   }
+
+  /* team section styles  */
+  #team {
+    gap: 50px;
+  }
 }
 
 /* xl devices  */
 @media screen and (min-width: 1200px) and (max-width: 1399.98px) {
   .container {
     width: 1140px;
+  }
+
+  /* team section styles  */
+  #team {
+    gap: 55px;
   }
 }
 
