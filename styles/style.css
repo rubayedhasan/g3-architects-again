@@ -22,4 +22,49 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+.container {
+  width: 1195px;
+  margin: 0 auto;
+}
+
+.display-flex {
+  display: flex;
+}
+
+/* dark-1 */
+.text-primary {
+  color: rgba(19, 19, 19, 1);
+}
+
+/* dark-2 */
+.text-secondary {
+  color: rgba(114, 114, 114, 1);
+}
+
 /* header section styles  */
+header {
+  padding: 41.5px 0 37.5px;
+}
+
+/* nav section styles  */
+nav {
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav .brand-name {
+  font-size: 2.34rem;
+  font-weight: 700;
+  line-height: 2.75rem;
+}
+
+nav .navbar {
+  gap: 50px;
+  align-items: center;
+}
+
+nav .navbar .nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.34rem;
+}
