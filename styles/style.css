@@ -53,6 +53,7 @@ body {
 }
 
 .btn-primary {
+  cursor: pointer;
   color: rgb(255, 255, 255);
   font-size: 1.05rem;
   font-weight: 600;
@@ -108,14 +109,26 @@ nav .navbar .nav-link {
 }
 #banner .banner-image {
   width: 100%;
+  border-radius: 8px;
 }
 
 /* responsive styles  */
 /* xs devices  */
 @media screen and (max-width: 575.98px) {
+  header,
+  main,
+  footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .container {
-    width: calc(100% - 40px);
-    padding: 0 20px;
+    width: 100%;
+  }
+
+  .btn-primary {
+    padding: 13.5px 20.8px;
+    margin-top: 20px;
   }
 
   /* nav section styles  */
@@ -144,6 +157,15 @@ nav .navbar .nav-link {
   nav .navbar .nav-link {
     color: #131313;
   }
+
+  /* banner section styles  */
+  #banner {
+    margin-top: 70px;
+  }
+
+  #banner .banner-content {
+    width: 100%;
+  }
 }
 
 /* sm devices  */
@@ -157,6 +179,15 @@ nav .navbar .nav-link {
     text-align: center;
     flex-direction: column;
     gap: 18px;
+  }
+
+  /* banner section styles  */
+  #banner {
+    margin-top: 65px;
+  }
+
+  #banner .banner-content {
+    width: 100%;
   }
 }
 
