@@ -342,6 +342,28 @@ nav .navbar .nav-link {
     text-align: center;
     max-width: 100%;
   }
+
+  /* feature section styles  */
+  #feature {
+    flex-direction: column;
+    gap: 45px;
+  }
+
+  .feature-content-container,
+  .feature-image {
+    width: 100%;
+  }
+
+  #feature .badge {
+    width: 100%;
+    padding: 25px 20px;
+    position: static;
+  }
+
+  #feature .badge .exp-time {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+  }
 }
 
 /* md devices  */
@@ -374,6 +396,28 @@ nav .navbar .nav-link {
   #team .feature-lookup {
     max-width: 75%;
   }
+
+  /* feature section styles  */
+  #feature {
+    flex-direction: column;
+    gap: 45px;
+  }
+
+  .feature-content-container,
+  .feature-image {
+    width: 100%;
+  }
+
+  #feature .badge {
+    width: 100%;
+    padding: 25px 20px;
+    position: static;
+  }
+
+  #feature .badge .exp-time {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+  }
 }
 
 /* lg devices  */
@@ -385,6 +429,16 @@ nav .navbar .nav-link {
   /* team section styles  */
   #team {
     gap: 50px;
+  }
+
+  /* feature section styles  */
+  #feature {
+    align-items: center;
+    gap: 45px;
+  }
+
+  #feature .badge {
+    left: 100px;
   }
 }
 
