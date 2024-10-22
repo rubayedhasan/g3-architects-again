@@ -182,6 +182,31 @@ nav .navbar .nav-link {
   width: 100%;
 }
 
+#feature .badge {
+  color: rgb(255, 255, 255);
+  width: 284px;
+  padding: 38px 35px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: rgba(255, 144, 14, 1);
+  position: relative;
+  top: -64px;
+  left: -76.4px;
+}
+
+#feature .badge .exp-time {
+  font-size: 3.375rem;
+  font-weight: 700;
+  line-height: 3.625rem;
+  margin-bottom: 8px;
+}
+
+#feature .badge .exp {
+  font-size: 1.34rem;
+  font-weight: 500;
+  line-height: 2.1rem;
+}
+
 /* responsive styles  */
 /* xs devices  */
 @media screen and (max-width: 575.98px) {
