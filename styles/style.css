@@ -150,6 +150,38 @@ nav .navbar .nav-link {
   font-weight: 500;
 }
 
+/* feature section styles  */
+#feature {
+  justify-content: space-between;
+  gap: 45px;
+}
+
+.feature-content-container,
+.feature-image {
+  width: 45%;
+}
+
+#feature .feature-content-container .title {
+  padding-left: 17.5px;
+  border-left: 5px solid rgba(255, 144, 14, 1);
+}
+
+#feature .feature-card {
+  margin-top: 25px;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+}
+
+#feature .feature-card .description {
+  margin-top: 8px;
+}
+
+#feature .feature-image img {
+  width: 100%;
+}
+
 /* responsive styles  */
 /* xs devices  */
 @media screen and (max-width: 575.98px) {
