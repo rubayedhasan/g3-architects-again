@@ -387,6 +387,11 @@ footer .description {
     gap: 20px;
     justify-items: center;
   }
+
+  /* footer section  */
+  footer .description {
+    text-align: center;
+  }
 }
 
 /* sm devices  */
@@ -471,6 +476,11 @@ footer .description {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     justify-items: center;
+  }
+
+  /* footer section styles  */
+  footer .description {
+    text-align: center;
   }
 }
 
