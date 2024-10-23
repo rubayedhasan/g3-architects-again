@@ -257,6 +257,17 @@ nav .navbar .nav-link {
   filter: grayscale(1);
 }
 
+/* footer section styles  */
+footer {
+  padding: 33.2px;
+  border-radius: 8px;
+  background-color: rgba(255, 244, 231, 1);
+}
+
+footer .description {
+  margin-top: 0;
+}
+
 /* responsive styles  */
 /* xs devices  */
 @media screen and (max-width: 575.98px) {
